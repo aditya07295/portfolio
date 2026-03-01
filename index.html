@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Aditya Kumar | Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <img src="profile.jpeg" class="profile-pic">
+
+            <div class="hero-text">
+                <h1>Hi, I am Aditya Kumar</h1>
+                <p class="tagline">MCA 1st Year Student | Aspiring Web Developer</p>
+
+            <a href="#projects">
+                <button>View My Work</button>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="bar"><div class="progress html"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="bar"><div class="progress css"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="bar"><div class="progress js"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>MySQL</p>
+            <div class="bar"><div class="progress sql"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>Java Programming</p>
+            <div class="bar"><div class="progress java"></div></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am currently building my skills and working on real projects.
+        </p>
+    </section>
+
+    <section class="resume" id="resume">
+    <h2>My Resume</h2>
+    <p>You can download my resume below.</p>
+    <a href="resume.pdf" download>
+        <button>Download Resume</button>
+    </a>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Pojects</h2>
+
+        <div class="project-card">
+            <h3>Portfolio</h3>
+            <p>This portfolio Website is My Personal Experience.</p>
+            <button href="#">View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h3>To Do list</h3>
+            <p>Task manager using JavaScript.</p>
+            <button onclick="alert('Project coming soon...!')">View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>Basic CRUD project using HTML & MySQL.</p>
+            <button onclick="alert('Project coming soon...!')">View Project</button>
+        </div>
+    </section>
+
+    <footer>
+    <p>© 2026 Aditya Kumar | All Rights Reserved</p>
+
+    <div class="social-links">
+    <a href="https://wa.me/917295022888" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <a href="https://www.instagram.com/dilkushrazz?igsh=MWU0c2pmcng1czh6ZQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    
+    <a href="https://www.linkedin.com/in/aditya-kumar-354096309" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>
+
+    <script>
+        function showMessage() {
+            alert('Thank you for visiting my portfolio!');
+        }
+    </script>
+</body>
+</html>
